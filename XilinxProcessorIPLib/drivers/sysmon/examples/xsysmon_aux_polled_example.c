@@ -148,7 +148,7 @@ int SysMonAuxPolledExample(u16 SysMonDeviceId)
 {
 	int Status;
 	XSysMon_Config *ConfigPtr;
-	u16 VAuxData[4];
+	float VAuxData[4];
 	u16 VAuxRawData[4];
 	XSysMon *SysMonInstPtr = &SysMonInst;
 	u32 Index;
